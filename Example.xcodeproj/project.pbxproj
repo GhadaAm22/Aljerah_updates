@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		696C0E1E29139FEE0076051C /* KidsClub_Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C0E1D29139FEE0076051C /* KidsClub_Service.swift */; };
+		696C0E202913A1700076051C /* CarWash_Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C0E1F2913A1700076051C /* CarWash_Service.swift */; };
+		696C0E222913ACC80076051C /* Edit_MyAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C0E212913ACC80076051C /* Edit_MyAccount.swift */; };
+		696C0E242913BD330076051C /* OurNows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C0E232913BD330076051C /* OurNows.swift */; };
+		699986312910400B00B6A326 /* MyAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699986302910400B00B6A326 /* MyAccount.swift */; };
+		69EE25C2290E6A21003E5EE4 /* List_Barber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE25C1290E6A21003E5EE4 /* List_Barber.swift */; };
+		69EE25C4290E706B003E5EE4 /* List_Laundry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE25C3290E706B003E5EE4 /* List_Laundry.swift */; };
+		69EE25C6290E7598003E5EE4 /* SharedTransportation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE25C5290E7598003E5EE4 /* SharedTransportation.swift */; };
+		69EE25C8290E75E6003E5EE4 /* KisdClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE25C7290E75E6003E5EE4 /* KisdClub.swift */; };
+		69EE25CA290E7623003E5EE4 /* CarWash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE25C9290E7623003E5EE4 /* CarWash.swift */; };
 		69F8BFE3290D64B500624C11 /* ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8BFE2290D64B500624C11 /* ExampleApp.swift */; };
 		69F8BFE5290D64B500624C11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8BFE4290D64B500624C11 /* ContentView.swift */; };
 		69F8BFE7290D64B600624C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F8BFE6290D64B600624C11 /* Assets.xcassets */; };
 		69F8BFEA290D64B600624C11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F8BFE9290D64B600624C11 /* Preview Assets.xcassets */; };
+		69F8BFF3290D6A1A00624C11 /* Transportation_Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8BFF2290D6A1A00624C11 /* Transportation_Service.swift */; };
+		69F8BFF5290D928400624C11 /* Our_Neighborhood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8BFF4290D928400624C11 /* Our_Neighborhood.swift */; };
+		69F8BFF7290D9B7100624C11 /* List_Tamuinat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8BFF6290D9B7100624C11 /* List_Tamuinat.swift */; };
+		69F8BFF9290D9C5B00624C11 /* List_Pharmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8BFF8290D9C5B00624C11 /* List_Pharmacy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		696C0E1D29139FEE0076051C /* KidsClub_Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsClub_Service.swift; sourceTree = "<group>"; };
+		696C0E1F2913A1700076051C /* CarWash_Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWash_Service.swift; sourceTree = "<group>"; };
+		696C0E212913ACC80076051C /* Edit_MyAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edit_MyAccount.swift; sourceTree = "<group>"; };
+		696C0E232913BD330076051C /* OurNows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurNows.swift; sourceTree = "<group>"; };
+		699986302910400B00B6A326 /* MyAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccount.swift; sourceTree = "<group>"; };
+		69EE25C1290E6A21003E5EE4 /* List_Barber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_Barber.swift; sourceTree = "<group>"; };
+		69EE25C3290E706B003E5EE4 /* List_Laundry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_Laundry.swift; sourceTree = "<group>"; };
+		69EE25C5290E7598003E5EE4 /* SharedTransportation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTransportation.swift; sourceTree = "<group>"; };
+		69EE25C7290E75E6003E5EE4 /* KisdClub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisdClub.swift; sourceTree = "<group>"; };
+		69EE25C9290E7623003E5EE4 /* CarWash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWash.swift; sourceTree = "<group>"; };
 		69F8BFDF290D64B500624C11 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F8BFE2290D64B500624C11 /* ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApp.swift; sourceTree = "<group>"; };
 		69F8BFE4290D64B500624C11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		69F8BFE6290D64B600624C11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69F8BFE9290D64B600624C11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		69F8BFF2290D6A1A00624C11 /* Transportation_Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transportation_Service.swift; sourceTree = "<group>"; };
+		69F8BFF4290D928400624C11 /* Our_Neighborhood.swift */ = {isa = PBXFileReference; indentWidth = 50; lastKnownFileType = sourcecode.swift; path = Our_Neighborhood.swift; sourceTree = "<group>"; tabWidth = 50; wrapsLines = 1; };
+		69F8BFF6290D9B7100624C11 /* List_Tamuinat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_Tamuinat.swift; sourceTree = "<group>"; };
+		69F8BFF8290D9C5B00624C11 /* List_Pharmacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_Pharmacy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +63,20 @@
 		69F8BFD6290D64B500624C11 = {
 			isa = PBXGroup;
 			children = (
+				696C0E212913ACC80076051C /* Edit_MyAccount.swift */,
+				699986302910400B00B6A326 /* MyAccount.swift */,
+				696C0E232913BD330076051C /* OurNows.swift */,
+				696C0E1F2913A1700076051C /* CarWash_Service.swift */,
+				69EE25C9290E7623003E5EE4 /* CarWash.swift */,
+				696C0E1D29139FEE0076051C /* KidsClub_Service.swift */,
+				69EE25C7290E75E6003E5EE4 /* KisdClub.swift */,
+				69F8BFF2290D6A1A00624C11 /* Transportation_Service.swift */,
+				69EE25C5290E7598003E5EE4 /* SharedTransportation.swift */,
+				69EE25C1290E6A21003E5EE4 /* List_Barber.swift */,
+				69EE25C3290E706B003E5EE4 /* List_Laundry.swift */,
+				69F8BFF8290D9C5B00624C11 /* List_Pharmacy.swift */,
+				69F8BFF6290D9B7100624C11 /* List_Tamuinat.swift */,
+				69F8BFF4290D928400624C11 /* Our_Neighborhood.swift */,
 				69F8BFE1290D64B500624C11 /* Example */,
 				69F8BFE0290D64B500624C11 /* Products */,
 			);
@@ -137,8 +179,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69EE25C2290E6A21003E5EE4 /* List_Barber.swift in Sources */,
+				696C0E222913ACC80076051C /* Edit_MyAccount.swift in Sources */,
+				69F8BFF9290D9C5B00624C11 /* List_Pharmacy.swift in Sources */,
+				699986312910400B00B6A326 /* MyAccount.swift in Sources */,
+				69EE25C8290E75E6003E5EE4 /* KisdClub.swift in Sources */,
+				696C0E242913BD330076051C /* OurNows.swift in Sources */,
+				69EE25CA290E7623003E5EE4 /* CarWash.swift in Sources */,
+				696C0E202913A1700076051C /* CarWash_Service.swift in Sources */,
+				69F8BFF5290D928400624C11 /* Our_Neighborhood.swift in Sources */,
 				69F8BFE5290D64B500624C11 /* ContentView.swift in Sources */,
 				69F8BFE3290D64B500624C11 /* ExampleApp.swift in Sources */,
+				696C0E1E29139FEE0076051C /* KidsClub_Service.swift in Sources */,
+				69F8BFF7290D9B7100624C11 /* List_Tamuinat.swift in Sources */,
+				69EE25C4290E706B003E5EE4 /* List_Laundry.swift in Sources */,
+				69F8BFF3290D6A1A00624C11 /* Transportation_Service.swift in Sources */,
+				69EE25C6290E7598003E5EE4 /* SharedTransportation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +251,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -274,6 +330,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,6 +359,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

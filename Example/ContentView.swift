@@ -8,16 +8,46 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView{
+            Our_Neighborhood()
+            .tabItem{
+                Label("Our neighborhood", systemImage: "house")
+
+            }
+            .toolbar(.visible, for: .tabBar)
+
+            .toolbarBackground(Color("Lgreen"),for: .tabBar)
+            
+            
+            OurNows()
+            .tabItem{
+                Label("Our Nows", systemImage: "bubble.middle.bottom")
+            }
+            .toolbar(.visible, for: .tabBar)
+
+            .toolbarBackground(Color("Lgreen"),for: .tabBar)
+            
+             MyAccount()
+            
+            .tabItem{
+                Label("My Account", systemImage: "person.circle")
+            }
+            .toolbar(.visible, for: .tabBar)
+
+            .toolbarBackground(Color("Lgreen"),for: .tabBar)
         }
-        .padding()
+        
+        
+        .accentColor(Color("Ggreen"))
+//        .padding()
+
     }
+    
+
 }
+    
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
