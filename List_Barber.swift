@@ -66,6 +66,7 @@ struct List_Barber: View {
                         Image(systemName: "mappin")
                     }
                     .foregroundColor(Color("Dgreen"))
+                    .font(.caption2)
                 }
         }
     }

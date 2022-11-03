@@ -11,6 +11,8 @@
 		696C0E202913A1700076051C /* CarWash_Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C0E1F2913A1700076051C /* CarWash_Service.swift */; };
 		696C0E222913ACC80076051C /* Edit_MyAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C0E212913ACC80076051C /* Edit_MyAccount.swift */; };
 		696C0E242913BD330076051C /* OurNows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C0E232913BD330076051C /* OurNows.swift */; };
+		696C0E262913C82E0076051C /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C0E252913C82E0076051C /* Registration.swift */; };
+		696C0E282913C8A10076051C /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C0E272913C8A10076051C /* Login.swift */; };
 		699986312910400B00B6A326 /* MyAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699986302910400B00B6A326 /* MyAccount.swift */; };
 		69EE25C2290E6A21003E5EE4 /* List_Barber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE25C1290E6A21003E5EE4 /* List_Barber.swift */; };
 		69EE25C4290E706B003E5EE4 /* List_Laundry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EE25C3290E706B003E5EE4 /* List_Laundry.swift */; };
@@ -32,6 +34,8 @@
 		696C0E1F2913A1700076051C /* CarWash_Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWash_Service.swift; sourceTree = "<group>"; };
 		696C0E212913ACC80076051C /* Edit_MyAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edit_MyAccount.swift; sourceTree = "<group>"; };
 		696C0E232913BD330076051C /* OurNows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurNows.swift; sourceTree = "<group>"; };
+		696C0E252913C82E0076051C /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		696C0E272913C8A10076051C /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		699986302910400B00B6A326 /* MyAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccount.swift; sourceTree = "<group>"; };
 		69EE25C1290E6A21003E5EE4 /* List_Barber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_Barber.swift; sourceTree = "<group>"; };
 		69EE25C3290E706B003E5EE4 /* List_Laundry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_Laundry.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 		69F8BFD6290D64B500624C11 = {
 			isa = PBXGroup;
 			children = (
+				696C0E272913C8A10076051C /* Login.swift */,
+				696C0E252913C82E0076051C /* Registration.swift */,
 				696C0E212913ACC80076051C /* Edit_MyAccount.swift */,
 				699986302910400B00B6A326 /* MyAccount.swift */,
 				696C0E232913BD330076051C /* OurNows.swift */,
@@ -190,9 +196,11 @@
 				69F8BFF5290D928400624C11 /* Our_Neighborhood.swift in Sources */,
 				69F8BFE5290D64B500624C11 /* ContentView.swift in Sources */,
 				69F8BFE3290D64B500624C11 /* ExampleApp.swift in Sources */,
+				696C0E262913C82E0076051C /* Registration.swift in Sources */,
 				696C0E1E29139FEE0076051C /* KidsClub_Service.swift in Sources */,
 				69F8BFF7290D9B7100624C11 /* List_Tamuinat.swift in Sources */,
 				69EE25C4290E706B003E5EE4 /* List_Laundry.swift in Sources */,
+				696C0E282913C8A10076051C /* Login.swift in Sources */,
 				69F8BFF3290D6A1A00624C11 /* Transportation_Service.swift in Sources */,
 				69EE25C6290E7598003E5EE4 /* SharedTransportation.swift in Sources */,
 			);

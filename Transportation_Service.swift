@@ -83,6 +83,7 @@ struct Transportation_Service: View {
                         Image(systemName: "mappin")
                     }
                     .foregroundColor(Color("Dgreen"))
+                    .font(.caption2)
                 }
                 
                 

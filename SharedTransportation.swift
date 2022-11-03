@@ -18,6 +18,7 @@ struct SharedTransportation: View {
                     Image(systemName: "mappin")
                 }
                 .foregroundColor(Color("Dgreen"))
+                .font(.caption2)
             }
     }
 }

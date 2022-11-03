@@ -36,10 +36,11 @@ struct Edit_MyAccount: View {
     @State var phoneNum: String = ""
     @State var Female = false
     @State var Male = false
+    @State var isPresented = false
     
     var body: some View {
         
-        NavigationView() {
+        NavigationView {
            
             //Edit User Profile
             
@@ -122,7 +123,9 @@ struct Edit_MyAccount: View {
                      showingAlert = true
                  }
                  .alert("The Account has been Updated", isPresented: $showingAlert) {
-                     Button("OK", role: .cancel) { }
+                     Button("OK", role: .destructive) {
+                         isPresented.toggle()
+                     }
                  }
              
                  .frame(maxWidth: .infinity)
@@ -134,8 +137,9 @@ struct Edit_MyAccount: View {
  //                       .padding()
                  }
                         }
-            
-            
+        .fullScreenCover(isPresented: $isPresented, content: {
+            ContentView()
+        })
             .navigationTitle("Edit My Account")
             .padding(.all)
         }

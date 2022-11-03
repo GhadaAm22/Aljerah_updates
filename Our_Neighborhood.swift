@@ -200,7 +200,7 @@ struct Our_Neighborhood: View {
 
         let navBarAppearance = UINavigationBarAppearance()
                                                       
-            navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.init(named: "Dgreen")]
+        navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.init(named: "Dgreen") as Any]
          
             UINavigationBar.appearance().standardAppearance = navBarAppearance
             UINavigationBar.appearance().scrollEdgeAppearance = navBarAppearance
@@ -299,6 +299,7 @@ struct Our_Neighborhood: View {
                                 Image(systemName: "mappin")
                             }
                             .foregroundColor(Color("Dgreen"))
+                            .font(.subheadline)
                         }
                     }
                 }
