@@ -11,15 +11,15 @@ struct SharedTransportation: View {
     var body: some View {
         Text("Shared Transportation!")
         
-            .toolbar {
-                Button(action: {})
-                {
-                    Text("Yasmine neigborhood")
-                    Image(systemName: "mappin")
-                }
-                .foregroundColor(Color("Dgreen"))
-                .font(.caption2)
-            }
+//            .toolbar {
+//                Button(action: {})
+//                {
+//                    Text("Yasmine neigborhood")
+//                    Image(systemName: "mappin")
+//                }
+//                .foregroundColor(Color("Dgreen"))
+//                .font(.caption2)
+//            }
     }
 }
 

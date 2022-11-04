@@ -18,15 +18,15 @@ struct List_Laundry: View {
                     .position(x:180 , y: 300)
             }.padding(.all)
             .navigationTitle("Laundry")
-            .toolbar {
-                Button(action: {})
-                {
-                    Text("Yasmine neigborhood")
-                    Image(systemName: "mappin")
-                }
-                .foregroundColor(Color("Dgreen"))
-                .font(.caption2)
-            }
+//            .toolbar {
+//                Button(action: {})
+//                {
+//                    Text("Yasmine neigborhood")
+//                    Image(systemName: "mappin")
+//                }
+//                .foregroundColor(Color("Dgreen"))
+//                .font(.caption2)
+//            }
         }
     }
 }

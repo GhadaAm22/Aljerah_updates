@@ -100,15 +100,15 @@ struct List_Tamuinat: View {
                     }
                 }.padding(.all)
                     .navigationTitle("Grocery")
-                    .toolbar {
-                        Button(action: {})
-                        {
-                            Text("Yasmine neigborhood")
-                            Image(systemName: "mappin")
-                        }
-                        .foregroundColor(Color("Dgreen"))
-                        .font(.caption2)
-                    }
+//                    .toolbar {
+//                        Button(action: {})
+//                        {
+//                            Text("Yasmine neigborhood")
+//                            Image(systemName: "mappin")
+//                        }
+//                        .foregroundColor(Color("Dgreen"))
+//                        .font(.caption2)
+//                    }
             }
            
            

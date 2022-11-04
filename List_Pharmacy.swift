@@ -70,15 +70,15 @@ struct List_Pharmacy: View {
                 }
             }.padding(.all)
                 .navigationTitle("Pharmacy")
-                .toolbar {
-                    Button(action: {})
-                    {
-                        Text("Yasmine neigborhood")
-                        Image(systemName: "mappin")
-                    }
-                    .foregroundColor(Color("Dgreen"))
-                    .font(.caption2)
-                }
+//                .toolbar {
+//                    Button(action: {})
+//                    {
+//                        Text("Yasmine neigborhood")
+//                        Image(systemName: "mappin")
+//                    }
+//                    .foregroundColor(Color("Dgreen"))
+//                    .font(.caption2)
+//                }
         }
     }
 }

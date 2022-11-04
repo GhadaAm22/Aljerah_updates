@@ -80,15 +80,15 @@ struct KidsClub_Service: View {
 //                    for: .navigationBar)
 //                .toolbarBackground(.visible, for: .navigationBar)
                 
-                    .toolbar {
-                    Button(action: {})
-                    {
-                        Text("Yasmine neigborhood")
-                        Image(systemName: "mappin")
-                    }
-                    .foregroundColor(Color("Dgreen"))
-                    .font(.caption2)
-                }
+//                    .toolbar {
+//                    Button(action: {})
+//                    {
+//                        Text("Yasmine neigborhood")
+//                        Image(systemName: "mappin")
+//                    }
+//                    .foregroundColor(Color("Dgreen"))
+//                    .font(.caption2)
+//                }
                 
                 
                 

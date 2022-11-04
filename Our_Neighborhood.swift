@@ -198,6 +198,8 @@ import SwiftUI
 
 
 struct Our_Neighborhood: View {
+//      @Binding var neighborhood : String
+//       @State var isPresented = false
 
                                            
        init() {
@@ -297,15 +299,19 @@ struct Our_Neighborhood: View {
 
               
                         
-                        .toolbar {
-                            Button(action: {})
-                            {
-                                Text("Yasmine neigborhood")
-                                Image(systemName: "mappin")
-                            }
-                            .foregroundColor(Color("Dgreen"))
-                            .font(.subheadline)
-                        }
+//                        .toolbar {
+//                            Button {
+//                                isPresented.toggle()
+//
+//
+//                            }label :{ Text(neighborhood)
+//                                Image(systemName: "mappin")
+//                            .foregroundColor(Color("Dgreen"))
+//                            .font(.caption2)
+//                            .fullScreenCover(isPresented: $isPresented, content: {
+//                                SplachScreen()})
+//                        }
+//                    }
                     }
                 }
                 .padding()
@@ -386,7 +392,7 @@ struct Our_Neighborhood: View {
                 .padding()
             }
                                                           
-            .navigationTitle(" Take a roll in the lane")
+//            .navigationTitle(" Take a roll in the lane")
         }
     }
 }

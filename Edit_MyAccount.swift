@@ -138,9 +138,9 @@ struct Edit_MyAccount: View {
                  }
                         }
         .fullScreenCover(isPresented: $isPresented, content: {
-            ContentView()
+            ContentView(neighborhood:Binding<String>.constant("hi"))
         })
-            .navigationTitle("Edit My Account")
+//            .navigationTitle("Edit My Account")
             .padding(.all)
         }
         

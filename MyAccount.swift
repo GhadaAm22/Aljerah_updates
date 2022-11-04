@@ -104,14 +104,14 @@ struct MyAccount: View {
                 
                 //  }
                 
+                //                
+//            .navigationTitle("My Account")
+                //            }
                 
-            .navigationTitle("My Account")
             }
-            
         }
-    }
-    
-}
+        
+    }}
 
 struct MyAccount_Previews: PreviewProvider {
     static var previews: some View {

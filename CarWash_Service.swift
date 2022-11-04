@@ -76,15 +76,15 @@ struct CarWash_Service: View {
                 .navigationTitle(" Add Kids Club Service ")
                 
                 
-                    .toolbar {
-                    Button(action: {})
-                    {
-                        Text("Yasmine neigborhood")
-                        Image(systemName: "mappin")
-                    }
-                    .foregroundColor(Color("Dgreen"))
-                    .font(.caption2)
-                }
+//                    .toolbar {
+//                    Button(action: {})
+//                    {
+//                        Text("Yasmine neigborhood")
+//                        Image(systemName: "mappin")
+//                    }
+//                    .foregroundColor(Color("Dgreen"))
+//                    .font(.caption2)
+//                }
                 
                 
                 

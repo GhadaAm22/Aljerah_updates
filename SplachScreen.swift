@@ -94,7 +94,7 @@ struct SplachScreen: View {
                     Text("next")
                         .modifier(ButtonModifier())
                         .fullScreenCover(isPresented: $isPresented, content: {
-                            Transportation_Service(neighborhood: $neighborhood)})
+                            ContentView(neighborhood: $neighborhood)})
                 .alert("You have to choose Neighborhood", isPresented: $showingAlert) {
                     Button("OK", role: .cancel) { }
             

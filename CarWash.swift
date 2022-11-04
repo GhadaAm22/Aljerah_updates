@@ -11,15 +11,15 @@ struct CarWash: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
         
-            .toolbar {
-                Button(action: {})
-                {
-                    Text("Yasmine neigborhood")
-                    Image(systemName: "mappin")
-                }
-                .foregroundColor(Color("Dgreen"))
-                .font(.caption2)
-            }
+//            .toolbar {
+//                Button(action: {})
+//                {
+//                    Text("Yasmine neigborhood")
+//                    Image(systemName: "mappin")
+//                }
+//                .foregroundColor(Color("Dgreen"))
+//                .font(.caption2)
+//            }
     }
 }
 
