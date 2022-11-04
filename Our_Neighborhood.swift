@@ -195,9 +195,13 @@
 
 import SwiftUI
 
-struct Our_Neighborhood: View {
-       init() {
 
+
+struct Our_Neighborhood: View {
+
+                                           
+       init() {
+                                       
         let navBarAppearance = UINavigationBarAppearance()
                                                       
         navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.init(named: "Dgreen") as Any]
@@ -209,11 +213,12 @@ struct Our_Neighborhood: View {
  } //init to change the appearance of the nav
                                                   
                                                   
-                                                  
-                                                  
+     
                                                   
     var body: some View {
         
+                                                      
+                                                      
         NavigationView {
             VStack{
                                                               

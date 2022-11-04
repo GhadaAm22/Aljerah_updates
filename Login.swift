@@ -29,7 +29,7 @@ struct Login: View {
                 
                 Image("myLogo")
                     .resizable()
-                    .frame(width: 200.0, height: 200.0)
+                    .frame(width: 200.0, height: 150.0)
                 
                 // }
                 

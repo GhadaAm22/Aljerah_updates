@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D8A917429149D8B001416FC /* Splach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A917329149D8B001416FC /* Splach.swift */; };
+		5D8A917629149DAC001416FC /* SplachScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A917529149DAC001416FC /* SplachScreen.swift */; };
 		696C0E1E29139FEE0076051C /* KidsClub_Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C0E1D29139FEE0076051C /* KidsClub_Service.swift */; };
 		696C0E202913A1700076051C /* CarWash_Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C0E1F2913A1700076051C /* CarWash_Service.swift */; };
 		696C0E222913ACC80076051C /* Edit_MyAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C0E212913ACC80076051C /* Edit_MyAccount.swift */; };
@@ -30,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D8A917329149D8B001416FC /* Splach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splach.swift; sourceTree = "<group>"; };
+		5D8A917529149DAC001416FC /* SplachScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplachScreen.swift; sourceTree = "<group>"; };
 		696C0E1D29139FEE0076051C /* KidsClub_Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsClub_Service.swift; sourceTree = "<group>"; };
 		696C0E1F2913A1700076051C /* CarWash_Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWash_Service.swift; sourceTree = "<group>"; };
 		696C0E212913ACC80076051C /* Edit_MyAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edit_MyAccount.swift; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 		69F8BFD6290D64B500624C11 = {
 			isa = PBXGroup;
 			children = (
+				5D8A917529149DAC001416FC /* SplachScreen.swift */,
+				5D8A917329149D8B001416FC /* Splach.swift */,
 				696C0E272913C8A10076051C /* Login.swift */,
 				696C0E252913C82E0076051C /* Registration.swift */,
 				696C0E212913ACC80076051C /* Edit_MyAccount.swift */,
@@ -193,6 +199,7 @@
 				696C0E242913BD330076051C /* OurNows.swift in Sources */,
 				69EE25CA290E7623003E5EE4 /* CarWash.swift in Sources */,
 				696C0E202913A1700076051C /* CarWash_Service.swift in Sources */,
+				5D8A917629149DAC001416FC /* SplachScreen.swift in Sources */,
 				69F8BFF5290D928400624C11 /* Our_Neighborhood.swift in Sources */,
 				69F8BFE5290D64B500624C11 /* ContentView.swift in Sources */,
 				69F8BFE3290D64B500624C11 /* ExampleApp.swift in Sources */,
@@ -202,6 +209,7 @@
 				69EE25C4290E706B003E5EE4 /* List_Laundry.swift in Sources */,
 				696C0E282913C8A10076051C /* Login.swift in Sources */,
 				69F8BFF3290D6A1A00624C11 /* Transportation_Service.swift in Sources */,
+				5D8A917429149D8B001416FC /* Splach.swift in Sources */,
 				69EE25C6290E7598003E5EE4 /* SharedTransportation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,6 +12,12 @@ struct Transportation_Service: View {
     @State var Ffild: String = ""
     @State var Sfild: String = ""
     @State var Tfild: String = ""
+    
+    
+    @Binding var neighborhood : String
+    @State var isPresented = false
+    
+    
     var body: some View {
         
         NavigationView {
@@ -45,7 +51,7 @@ struct Transportation_Service: View {
                     
                     
                     Text("Ways to communicate:")
-
+                    
                         .foregroundColor(Color("Ggreen"))
                         .font(.system(size: 20 , weight: .bold))
                         .padding()
@@ -63,7 +69,7 @@ struct Transportation_Service: View {
                     .alert("The service has been added", isPresented: $showingAlert) {
                         Button("OK", role: .cancel) { }
                     }
-                
+                    
                     .frame(maxWidth: .infinity)
                     .padding()
                     .foregroundColor(.white)
@@ -76,16 +82,19 @@ struct Transportation_Service: View {
                 
                 .navigationTitle(" Add a Shared Transportation Service")
                 
-                    .toolbar {
-                    Button(action: {})
-                    {
-                        Text("Yasmine neigborhood")
+                .toolbar {
+                    Button {
+                        isPresented.toggle()
+                        
+                        
+                    }label :{ Text(neighborhood)
                         Image(systemName: "mappin")
-                    }
                     .foregroundColor(Color("Dgreen"))
                     .font(.caption2)
+                    .fullScreenCover(isPresented: $isPresented, content: {
+                        SplachScreen()})
                 }
-                
+            }
                 
                 
             }
@@ -96,6 +105,6 @@ struct Transportation_Service: View {
 
 struct FirstPage_Previews: PreviewProvider {
     static var previews: some View {
-        Transportation_Service()
+        Transportation_Service(neighborhood:Binding<String>.constant("hi"))
     }
 }
