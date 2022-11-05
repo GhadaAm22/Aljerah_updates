@@ -26,4 +26,5 @@ struct Landmark: Identifiable, Hashable {
     var coordinate: CLLocationCoordinate2D {
         self.placemark.coordinate
     }
+  
 }

@@ -194,14 +194,13 @@
 //
 
 import SwiftUI
-
+import MapKit
 
 
 struct Our_Neighborhood: View {
 //      @Binding var neighborhood : String
 //       @State var isPresented = false
-
-                                           
+   
        init() {
                                        
         let navBarAppearance = UINavigationBarAppearance()
@@ -232,12 +231,12 @@ struct Our_Neighborhood: View {
                 ScrollView(.horizontal)
                 {
                     HStack {
-                        NavigationLink(destination:List_Tamuinat()) {
+                        NavigationLink(destination:ListOfGroceries()) {
 
                         VStack{
                          Image(systemName: "basket")
                          .font(.system(size:20))
-                         Text("Splaies")
+                         Text("Groceries")
                                                                           
                         }
                                 .font(.caption)
@@ -250,7 +249,7 @@ struct Our_Neighborhood: View {
                         }
 
                         
-                        NavigationLink(destination:List_Pharmacy()) {
+                        NavigationLink(destination:ListOfPharmacy()) {
                           VStack{
                                 Image(systemName: "cross")
                                 .font(.system(size:20))
@@ -266,7 +265,7 @@ struct Our_Neighborhood: View {
                         
                         
                         
-                        NavigationLink(destination:List_Barber()) {
+                        NavigationLink(destination:ListOfBarber()) {
                                 VStack{
                                         Image(systemName: "mustache")
                                         .font(.system(size:20))
@@ -282,7 +281,7 @@ struct Our_Neighborhood: View {
 
                         
                         
-                        NavigationLink(destination:List_Laundry()) {
+                        NavigationLink(destination:ListOfLaundry()) {
                                VStack{
                                      Image(systemName: "washer")
                                      .font(.system(size:20))

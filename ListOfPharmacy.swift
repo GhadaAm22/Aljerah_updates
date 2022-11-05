@@ -1,18 +1,19 @@
 //
-//  ListOfGroceries.swift
+//  ListOfPharmacy.swift
 //  Example
 //
 //  Created by Einas Alturki on 11/04/1444 AH.
 //
 
+import Foundation
 import SwiftUI
 import MapKit
 
-struct ListOfGroceries: View {
+struct ListOfPharmacy: View {
     
     @EnvironmentObject var localSearchService: LocalSearchService
-    @State private var search: String = "Grocery"
-  
+    @State private var search: String = "Pharmacy"
+
     
     var body: some View {
        VStack {
@@ -32,7 +33,7 @@ struct ListOfGroceries: View {
 
                 
             } else {
-                GroceriesListView()
+                PharmacyListView()
             }
             
 
@@ -42,9 +43,9 @@ struct ListOfGroceries: View {
     }
 }
 
-struct ListOfGroceries_Previews: PreviewProvider {
+struct ListOfPharmacy_Previews: PreviewProvider {
     static var previews: some View {
-        ListOfGroceries().environmentObject(LocalSearchService())
+        ListOfPharmacy().environmentObject(LocalSearchService())
     }
 }
 
