@@ -1,0 +1,107 @@
+/* 
+  Localizable.strings
+  Example
+
+  Created by Einas Alturki on 12/04/1444 AH.
+  
+*/
+"header_text" = "اللغة الحاليه";
+"Change_language" = "غير اللغة";
+
+"Our_Neighborhood" = "حارتنا";
+"Neighborhood_Services" = "خدمات الحي";
+"Groceries" = "تموينات";
+"Pharmacies" = "صيدلية";
+"Barber" = "حلاق";
+"Laundry" = "مغسلة";
+"Services_between_Neighbors" = "خدمات بين الجيران";
+"Shared_Transportation" = "مواصلات مشتركة";
+"Kids_Gathring" = "لمّة أطفال";
+"Car_Wash" = "غسيل سيارات";
+
+"Choose_your_neighborhood" = "اختار الحي الي تسكن فيه";
+"Click_to_choose" = "اختر الحي";
+"You_have_to_choose_neighborhood" = "يجب أن تختار الحي";
+"Ok" = "موافق";
+"Continue" = "استمر";
+"Alnarjis" = "النرجس";
+"Alnada" = "الندى";
+"Alyasmin" = "الياسمين";
+"Alaarid" = "العارض";
+"View_List" = "اعرض القائمة";
+"No_Placese_around_you!" = "لا يوجد اماكن متاحة في حارتك";
+
+"Our_News" = "أخبارنا";
+"My_Account" = "حسابي";
+"Have_a_walk_in_the_neighborhood" = "خذ لك لفه بالحي";
+"User_Name" = "اسم المستخدم";
+"Email" = "البريد الإلكتروني";
+"Phone_Number" = "الهاتف";
+"Password" = "الرقم السري";
+"Pass_Detail" = "الرقم السري يجب ان يكون على الاقل ٨ خانات...";
+"Edit" = "تعديل";
+"Gender" = "الجنس";
+"Save" = "حفظ";
+"Login" = "تسجيل الدخول";
+"Dont_have_an_account" = "ليس لديك حساب؟";
+"REGISTER" = "تسجيل";
+"Sign_Up" = "تسجيل جديد";
+"The_account_has_been_updated" = "تم تحديث الحساب بنجاح";
+"Cancel" = "الغاء";
+
+/*Shared transportation */
+
+"Add_Service" = "اضافة خدمة";
+"Service_Details" = "تفاصيل الخدمة:";
+"Ways_to_communicate" = "طريقة التواصل :";
+"Service_Topic" = "عنوان الخدمة:";
+"Topic_Description" = "توصيل من مكان ١ الى مكان٢ ";
+"Details_Description" = "توصيل من مكان ١ الى مكان ٢ مع اضافة الوقت و اضافة اي تفاصيل اخرى .";
+"Comm_Description" = "رقم الجوال ، البريد الألكتروني ، حسابات التواصل الأجتماعي. ";
+"The_service_has_been_added" = "تمت اضافة الخدمة";
+"Add_a_Shared_Transportation_Service" = "اضافة خدمه مواصلات مشتركة";
+
+/* Kids Club */
+"Add_Kids_Club_Service" = "اضافة خدمة لمّة أطفال";
+"Topic_Description_Kids" = "نوع لمّ الاطفال أو النشاط";
+"Details_Description_Kids" = "نوع لمة الأطفال وقتها والعمر";
+
+/* Car Wash */
+"Add_Car_Wash_Service" = "اضافة خدمه غسيل سيارة";
+"Topic_Description_Car" = "عنوان الخدمة";
+"Details_Description_Car" = "وقت غسيل السياره وعدد السيارات الممكن غسيلها";
+
+/* list of shared post */
+"Serv1" = "توصيل الي نادي وقت اللياقه الياسمين";
+"ServDetail1" = "توصيل الي نادي وقت اللياقه الياسمين يوميا الساعه ٥ مساءا";
+"ServContact1" = "05678936واتس فقط: ";
+
+"Serv2" = "خدمه ذهاب الي محطه القطار رقم ٢";
+"ServDetail2" = "توصيل من حي الياسمين ثلاث اشخاص حد اقصي يومياً في تمام الساعة ٧ صباحًا الى محطه القار رقم ٢";
+"ServContact2" = "توتر  @mohameed_22 ";
+
+"Serv3" = "خدمة توصيل طالبات الى جامعة الملك سعود";
+"ServDetail3" = "خدمة توصيل طالبات الى جامعة الملك سعود ذهابا يوميا الساعه ٨ صباحا";
+"ServContact3" = "رقم الجوال (05896704)";
+
+"Serv4" = "خدمه توصيل الي مدارس نجد";
+"ServDetail4" = "خدمه توصيل الي مدارس نجد بنات يوميا الساعه ٧ صباحا";
+"ServContact4" = "رقم الجوال : 05674322";
+
+"Serv5" = "توصيل معلمات الى ابتدائية المناهل";
+"ServDetail5" = "توصيل معلمات الى ابتدائية المناهل";
+"ServContact5" = "Email:Saud234@gmail.com";
+
+"Serv6" = "خدمه تمشيت كلاب ";
+"ServDetail6" = "خدمه تمشيت كلاب يوم الاحد والثلاثاء الساعه ٧ مساءا";
+"ServContact6" = "رقم الجوال:05698342";
+
+
+"Add_Post" = "انشر خبر ";
+"Post" = "انشر";
+"Post1" = "بنسوي حوامة عيد الفطر";
+"Post2" = "برنامج جميل";
+"Post3" = "مرحباً جيراني الاعزاء :)";
+"Post4" = "حفريات على الشارع الرئيسي ";
+
+

@@ -28,7 +28,7 @@ struct ContentView: View {
             TabView{
                 Our_Neighborhood()
                     .tabItem{
-                        Label("Our neighborhood", systemImage: "house")
+                        Label("Our_Neighborhood".localized, systemImage: "house")
                         
                     }
                     .toolbar(.visible, for: .tabBar)
@@ -36,9 +36,10 @@ struct ContentView: View {
                     .toolbarBackground(Color("Lgreen"),for: .tabBar)
                 
                 
-                OurNows()
+                OurNews(AddedMessage: Binding<String>.constant("excavtion on the main street"),
+                            AddedName: Binding<String>.constant("Rakan"),AddedGender: Binding<String>.constant("MaleProfile"))
                     .tabItem{
-                        Label("Our Nows", systemImage: "bubble.middle.bottom")
+                        Label("Our_News".localized, systemImage: "bubble.middle.bottom")
                     }
                     .toolbar(.visible, for: .tabBar)
                 
@@ -47,7 +48,7 @@ struct ContentView: View {
                 MyAccount()
                 
                     .tabItem{
-                        Label("My Account", systemImage: "person.circle")
+                        Label("My_Account".localized, systemImage: "person.circle")
                     }
                     .toolbar(.visible, for: .tabBar)
                 
@@ -68,7 +69,7 @@ struct ContentView: View {
                             SplachScreen()})
                 }
             }
-            .navigationTitle(" Take a roll in the lane")
+            .navigationTitle("Have_a_walk_in_the_neighborhood".localized)
         }
         
         

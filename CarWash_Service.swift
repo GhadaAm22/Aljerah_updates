@@ -19,48 +19,48 @@ struct CarWash_Service: View {
                 
                 VStack(alignment: .leading)
                 {
-                    Text(" Service Topic : ")
+                    Text("Service_Topic")
                         .font(.system(size: 20 , weight: .bold))
                         .foregroundColor(Color("Ggreen"))
                         .padding()
                     
                     
-                    TextField("Kids Club in House 2.", text: $Ffild)
+                    TextField("Topic_Description_Car", text: $Ffild)
                         .padding()
                         .foregroundColor(Color.black)
                         .background(Color("LGreen"))
                         .cornerRadius(8.0)
                     
-                    Text(" Service Details :")
+                    Text("Service_Details")
                         .font(.system(size: 20 , weight: .bold))
                         .foregroundColor(Color("Ggreen"))
                         .padding()
                     
-                    TextField("Car Wash Service available at 6 PM in Place A.   ",text: $Sfild)
+                    TextField("Details_Description_Car",text: $Sfild)
                         .padding()
                         .foregroundColor(Color.black)
                         .background(Color("LGreen"))
                         .cornerRadius(8.0)
                     
                     
-                    Text("Ways to communicate:")
+                    Text("Ways_to_communicate")
 
                         .foregroundColor(Color("Ggreen"))
                         .font(.system(size: 20 , weight: .bold))
                         .padding()
                     
-                    TextField("Phone Number , Email, Social media accounts", text: $Tfild)
+                    TextField("Comm_Description", text: $Tfild)
                         .padding()
                         .foregroundColor(Color.black)
                         .background(Color("LGreen"))
                         .cornerRadius(8.0)
                         .padding(.bottom)
                     
-                    Button("Add Service") {
+                    Button("Add_Service") {
                         showingAlert = true
                     }
-                    .alert("The service has been added", isPresented: $showingAlert) {
-                        Button("OK", role: .cancel) { }
+                    .alert("The_service_has_been_added", isPresented: $showingAlert) {
+                        Button("Ok", role: .cancel) { }
                     }
                 
                     .frame(maxWidth: .infinity)
@@ -73,7 +73,7 @@ struct CarWash_Service: View {
                 }
                 .padding()
                 
-                .navigationTitle(" Add Kids Club Service ")
+                .navigationTitle("Add_Car_Wash_Service")
                 
                 
 //                    .toolbar {

@@ -48,9 +48,9 @@ content
 }}
 struct SplachScreen: View {
 
-@State var neighborhood = "Click to choose"
+    @State var neighborhood = "Click_to_choose".localized
 var id = UUID()
-let neighborhoods:[String] = ["alyasmin", "alnarjis"]
+    let neighborhoods:[String] = ["Alyasmin".localized, "Alnarjis".localized,"Alaarid".localized,"Alnada".localized]
 
 @State private var showingAlert = false
 @State var isPresented = false
@@ -70,7 +70,7 @@ var body: some View {
                 .frame(width: 175, height: 150.0)
                 
                 
-                Text("Choose your Neighborhood:")
+            Text("Choose_your_neighborhood".localized)
                     .modifier(TextModifier1())
                 
                 
@@ -91,7 +91,7 @@ var body: some View {
                 }}.modifier(MenuModifier())
                 
                 Button {
-                    if (neighborhood=="Click to choose")
+                    if (neighborhood == "Click_to_choose".localized)
                     {showingAlert = true
                     }
                     else{
@@ -99,12 +99,12 @@ var body: some View {
                     }
                     
                 }label: {
-                    Text("next")
+                    Text("Continue")
                         .modifier(ButtonModifier())
                         .fullScreenCover(isPresented: $isPresented, content: {
                             ContentView(neighborhood: $neighborhood)})
-                .alert("You have to choose Neighborhood", isPresented: $showingAlert) {
-                    Button("OK", role: .cancel) { }
+                .alert("You_have_to_choose_neighborhood", isPresented: $showingAlert) {
+                    Button("Ok", role: .cancel) { }
             
                 }
           

@@ -50,7 +50,7 @@ struct MyAccount: View {
                     
                     
                     //User Name
-                    Text("User Name")
+                    Text("User_Name".localized)
                         .modifier(HeaderModifier())
                     
                     
@@ -69,7 +69,7 @@ struct MyAccount: View {
                     
                     // .padding()
                     //Phone Number
-                    Text("Phone Number")
+                    Text("Phone_Number".localized)
                         .modifier(HeaderModifier())
                     
                     

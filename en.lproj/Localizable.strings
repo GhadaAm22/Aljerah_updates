@@ -1,0 +1,112 @@
+/* 
+  Localizable.strings
+  Example
+
+  Created by Einas Alturki on 12/04/1444 AH.
+  
+*/
+
+"header_text" = "Current Language";
+"Change_language" = "Change Language";
+"Our_Neighborhood" = "Our Neighborhood";
+"Neighborhood_Services" = "Neighborhood Services";
+"Groceries" = "Groceries";
+"Pharmacies" = "Pharmacies";
+"Barber" = "barber";
+"Laundry" = "Laundry";
+"Services_between_Neighbors" = "Services between Neighborss";
+"Shared_Transportation" = "Shared Transportation";
+"Kids_Gathring" = "Kids Gathring";
+"Car_Wash" = "Car Wash";
+
+"Choose_your_neighborhood" = "Choose your neighborhood";
+"Click_to_choose" = "Click to choose";
+"You_have_to_choose_neighborhood" = "You have to choose neighborhood";
+"Ok" = "OK";
+"Countinu" = "Countinu";
+"Alnarjis" = "Al Narjis";
+"Alnada" = "Al Nada";
+"Alyasmin" = "Al Yasmin";
+"Alaarid" = "Al Arid";
+"View_List" = "View List";
+"No_Placese_around_you!" = "No Placese around you!";
+"Our_Neighborhood" = "Our Neighborhood";
+"Our_News" = "Our News";
+"My_Account" = "My Account";
+"Have_a_walk_in_the_neighborhood" = "Have a walk in the neighborhood";
+"User_Name" = "User Name";
+"Email" = "Email";
+"Phone_Number" = "Phone Number";
+"Password" = "Password";
+"Pass_Detail" = "Password min of 8 charater...";
+"Edit" = "Edit";
+"Gender" = "Gender";
+"Save" = "Save";
+"Login" = "Login";
+"Dont_have_an_account" = "Don't have an account?";
+"REGISTER" = "REGISTER";
+"Sign_Up" = "Sign_Up";
+"The_account_has_been_updated" = "The account has been updated";
+"Cancel" = "Cancel";
+
+
+/*Shared transportation */
+
+"Add_Service" = "Add Service";
+"Service_Details" = "Service Details:";
+"Ways_to_communicate" = "Ways to Communicate:";
+"Service_Topic" = "Service Topic :";
+"Topic_Description" = "Delivery from place1 to plase 2";
+"Details_Description" = "Delivery from place1 to plase 2 with the addition of time and any other details.";
+"Comm_Description" = "Phone Number , Email, Social media accounts";
+"The_service_has_been_added" = "The service has been added";
+"Add_a_Shared_Transportation_Service" = "Add a Shared Transportation Service";
+
+/* Kids Club */
+"Topic_Description_Kids" = "kids club type of activity";
+"Add_Kids_Club_Service" = "Add Kids Club Service";
+"Details_Description_Kids" = "Kids Club kind , time , age group";
+
+/* Car Wash */
+"Add_Car_Wash_Service" = "Add Car Wash Service";
+"Topic_Description_Car" = "Title of car wash Service";
+"Details_Description_Car" = "Car Wash Time and how many";
+
+
+/* list of shared post */
+"Serv1" = "Delivery service to Fitness Time Club";
+"ServDetail1" = "Delivery service to Fitness Time Club at 5 pm.";
+"ServContact1" = "Whatsapp only:05678936";
+
+"Serv2" = "Delivery service to train station No. 3";
+"ServDetail2" = "Delivery service to train station No. 3 at 6 AM";
+"ServContact2" = "Twitter:@Adel_ali";
+
+"Serv3" = "Delivery service for female students to Imam University";
+"ServDetail3" = "Delivery service for female students to Imam Muhammad bin Saud University at 10 am.";
+"ServContact3" = "Phone : 055446890";
+
+"Serv4" = "Delivery service for students to Najd schools";
+"ServDetail4" = "Delivery service for students to Najd schools at 6:30 am";
+"ServContact4" = "Phone : 05674322";
+
+"Serv5" = "Delivery service for teachers to Riyadh National Schools";
+"ServDetail5" = "Delivery service for teachers to Riyadh National Schools at 6:00 am";
+"ServContact5" = "Email:Saud234@gmail.com";
+
+"Serv6" = "Delivery service to walk dogs";
+"ServDetail6" = "Delivery service to walk dogs at 7:00 pm";
+"ServContact6" = "Phone:05698342";
+
+
+
+"Add_Post" = "Add post";
+"Post" = "Post";
+"Post1" = "Eid fiter celebration";
+"Post2" = "nice application";
+"Post3" = "hello dear neighbors :)";
+"Post4" = "excavtion on the main street";
+
+
+"" = "";
+"" = "";

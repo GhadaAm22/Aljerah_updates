@@ -40,7 +40,7 @@ struct Login: View {
                     
                     
                     //Email
-                    Text("email")
+                    Text("Email")
                         .modifier(HeaderModifier())
                     
                     TextField("", text: $email)
@@ -76,7 +76,7 @@ struct Login: View {
                 }
                 
                 HStack{
-                Text("Don't have an account? ")
+                Text("Dont_have_an_account")
                     NavigationLink(destination:Registration()){
                         Text("REGISTER")
                         .foregroundColor(.blue).underline()}

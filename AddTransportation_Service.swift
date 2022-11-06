@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Transportation_Service: View {
+struct AddTransportation_Service: View {
     @State private var showingAlert = false
     @State var Ffild: String = ""
     @State var Sfild: String = ""
@@ -26,50 +26,60 @@ struct Transportation_Service: View {
                 
                 VStack(alignment: .leading)
                 {
-                    Text(" Service Topic : ")
+                    Text("Service_Topic".localized)
                         .font(.system(size: 20 , weight: .bold))
                         .foregroundColor(Color("Ggreen"))
                         .padding()
                     
                     
-                    TextField("Delivery from place1 to plase 2", text: $Ffild)
+                    TextField("Topic_Description".localized, text: $Ffild)
                         .padding()
                         .foregroundColor(Color.black)
                         .background(Color("LGreen"))
                         .cornerRadius(8.0)
                     
-                    Text(" Service Details :")
+                    Text("Service_Details")
                         .font(.system(size: 20 , weight: .bold))
                         .foregroundColor(Color("Ggreen"))
                         .padding()
                     
-                    TextField("Delivery from place1 to plase 2 with the addition of time and any other details.   ",text: $Sfild)
+                    TextField("Details_Description".localized,text: $Sfild)
                         .padding()
                         .foregroundColor(Color.black)
                         .background(Color("LGreen"))
                         .cornerRadius(8.0)
                     
                     
-                    Text("Ways to communicate:")
+                    Text("Ways_to_communicate".localized)
                     
                         .foregroundColor(Color("Ggreen"))
                         .font(.system(size: 20 , weight: .bold))
                         .padding()
                     
-                    TextField("Phone Number , Email, Social media accounts", text: $Tfild)
+                    TextField("Comm_Description".localized, text: $Tfild)
                         .padding()
                         .foregroundColor(Color.black)
                         .background(Color("LGreen"))
                         .cornerRadius(8.0)
                         .padding(.bottom)
                     
-                    Button("Add Service") {
+                    Button("Add_Service".localized) {
                         showingAlert = true
                     }
-                    .alert("The service has been added", isPresented: $showingAlert) {
-                        Button("OK", role: .cancel) { }
+                    .alert("The_service_has_been_added".localized, isPresented: $showingAlert) {
+                        Button("Ok", role: .destructive) { isPresented.toggle()
+                            
+                        }
                     }
                     
+//                    Button("Save".localized) {
+//                        showingAlert = true
+//                    }
+//                    .alert("The_account_has_been_updated".localized, isPresented: $showingAlert) {
+//                        Button("OK".localized, role: .destructive) {
+//                            isPresented.toggle()
+//                        }
+//                    }
                     .frame(maxWidth: .infinity)
                     .padding()
                     .foregroundColor(.white)
@@ -80,7 +90,7 @@ struct Transportation_Service: View {
                 }
                 .padding()
                 
-                .navigationTitle(" Add a Shared Transportation Service")
+                .navigationTitle("Add_a_Shared_Transportation_Service".localized)
                 
                 .toolbar {
                     Button {
@@ -92,7 +102,7 @@ struct Transportation_Service: View {
                     .foregroundColor(Color("Dgreen"))
                     .font(.caption2)
                     .fullScreenCover(isPresented: $isPresented, content: {
-                        SplachScreen()})
+                        SharedTransportation()})
                 }
             }
                 
@@ -103,8 +113,8 @@ struct Transportation_Service: View {
     }
 }
 
-struct FirstPage_Previews: PreviewProvider {
+struct AddTransportation_Service_Previews: PreviewProvider {
     static var previews: some View {
-        Transportation_Service(neighborhood:Binding<String>.constant("hi"))
+        AddTransportation_Service(neighborhood:Binding<String>.constant("hi"))
     }
 }

@@ -49,31 +49,31 @@ struct Edit_MyAccount: View {
                  VStack(alignment:.leading){
                      
                      //User Name
-                     Text("User Name")
+                     Text("User_Name".localized)
                          .modifier(HeaderModifier())
                      
-                     TextField("User Name", text: $user_name)
+                     TextField("User_Name".localized, text: $user_name)
                          .modifier(TextFieldModifier())
                      
                      
                      //Email
-                     Text("email")
+                     Text("ِEmail".localized)
                          .modifier(HeaderModifier())
                      
                      TextField("@emal.com", text: $email)
                          .modifier(TextFieldModifier())
                      
                      //Pasword
-                     Text("Password")
+                     Text("Password".localized)
                          .modifier((HeaderModifier()))
                      
-                     TextField("Password min of 8 charater...", text: $password)
+                     TextField("Pass_Detail", text: $password)
                          .modifier((TextFieldModifier()))
                      
                      
                      
                      //Phone Number
-                     Text("Phone Number")
+                     Text("Phone_Number".localized)
                          .modifier(HeaderModifier())
                      
                      
@@ -82,7 +82,7 @@ struct Edit_MyAccount: View {
                      
                      
                      //Gender
-                     Text("Gender")
+                     Text("Gender".localized)
                          .modifier(HeaderModifier())
                      
                      
@@ -119,11 +119,11 @@ struct Edit_MyAccount: View {
                  }
                  
                  
-                 Button("Save") {
+                 Button("Save".localized) {
                      showingAlert = true
                  }
-                 .alert("The Account has been Updated", isPresented: $showingAlert) {
-                     Button("OK", role: .destructive) {
+                 .alert("The_account_has_been_updated".localized, isPresented: $showingAlert) {
+                     Button("OK".localized, role: .destructive) {
                          isPresented.toggle()
                      }
                  }

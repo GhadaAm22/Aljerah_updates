@@ -29,15 +29,15 @@ struct Registration: View {
                          VStack(alignment:.leading){
                              
                              //User Name
-                             Text("User Name")
+                             Text("User_Name")
                                  .modifier(HeaderModifier())
                              
-                             TextField("User Name", text: $user_name)
+                             TextField("User_Name", text: $user_name)
                                  .modifier(TextFieldModifier())
                              
                              
                              //Email
-                             Text("email")
+                             Text("Email")
                                  .modifier(HeaderModifier())
                              
                              TextField("@email.com", text: $email)
@@ -47,12 +47,12 @@ struct Registration: View {
                              Text("Password")
                                  .modifier((HeaderModifier()))
                              
-                             TextField("Password min of 8 charater...", text: $password)
+                             TextField("Pass_Detail", text: $password)
                                  .modifier((TextFieldModifier()))
                              
                              
                              //Phone Number
-                             Text("Phone Number")
+                             Text("Phone_Number")
                                  .modifier(HeaderModifier())
                              
                              
@@ -98,7 +98,7 @@ struct Registration: View {
                          }
                          
                          
-                         Button("Sign Up") {
+                         Button("Sign_Up") {
                              showingAlert = true
                          }
                          .alert("The Account has been Updated", isPresented: $showingAlert) {
