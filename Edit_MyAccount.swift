@@ -123,7 +123,7 @@ struct Edit_MyAccount: View {
                      showingAlert = true
                  }
                  .alert("The_account_has_been_updated".localized, isPresented: $showingAlert) {
-                     Button("OK".localized, role: .destructive) {
+                     Button("Oن".localized, role: .destructive) {
                          isPresented.toggle()
                      }
                  }

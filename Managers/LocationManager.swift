@@ -20,14 +20,10 @@ class LocationManager: NSObject, ObservableObject {
         locationManager.distanceFilter = kCLDistanceFilterNone
         locationManager.delegate = self
         locationManager.requestAlwaysAuthorization()
-        locationManager.requestLocation()
-    }
-}
+        locationManager.requestLocation()}}
 
 extension LocationManager: CLLocationManagerDelegate {
-    
     private func checkAuthorization() {
-        
         switch locationManager.authorizationStatus {
             case .notDetermined:
                 locationManager.requestWhenInUseAuthorization()
@@ -39,26 +35,17 @@ extension LocationManager: CLLocationManagerDelegate {
                 guard let location = locationManager.location else { return }
                 region = MKCoordinateRegion(center: location.coordinate, span: MKCoordinateSpan(latitudeDelta: 0.25, longitudeDelta: 0.25))
             @unknown default:
-                break
-        }
-        
-    }
+                break}}
     
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
-        checkAuthorization()
-    }
+        checkAuthorization()}
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
         guard let location = locations.last else { return }
         
         DispatchQueue.main.async { [weak self] in
-            self?.region = MKCoordinateRegion(center: location.coordinate, span: MKCoordinateSpan(latitudeDelta: 0.25, longitudeDelta: 0.25))
-        }
-    }
+            self?.region = MKCoordinateRegion(center: location.coordinate, span: MKCoordinateSpan(latitudeDelta: 0.25, longitudeDelta: 0.25))}}
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-        print(error.localizedDescription)
-    }
-    
-}
+        print(error.localizedDescription)}}
